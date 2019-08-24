@@ -1,3 +1,14 @@
+@media screen and (min-width:800px) {
+
+  .header,
+  .main,
+  .footer {
+    width: 60vw;
+    margin: 0 auto;
+  }
+}
+
+
 .header {
   height: 8vh;
   position: relative;
@@ -8,7 +19,6 @@
   position: relative;
 }
 
-.footer {}
 
 .main-navigation {
   text-align: right;
@@ -20,11 +30,11 @@
 
 .main a,
 .header a {
-  background: rgb(116, 220, 177);
-  background: -moz-linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
-  background: -webkit-linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
-  background: linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#74dcb1", endColorstr="#ffd272", GradientType=1);
+  background: rgb(174, 177, 193);
+  background: -moz-linear-gradient(0deg, rgba(174, 177, 193, 1) 0%, rgba(163, 192, 192, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(174, 177, 193, 1) 0%, rgba(163, 192, 192, 1) 100%);
+  background: linear-gradient(0deg, rgba(174, 177, 193, 1) 0%, rgba(163, 192, 192, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeb1c1", endColorstr="#a3c0c0", GradientType=1);
   font-weight: 700;
   border-radius: 5px;
   color: #424242;
@@ -39,26 +49,6 @@
 .main-menu a {
   padding: 5px 20px;
   margin: 10px 5px;
-}
-
-.main .title {
-  margin: 5vh 0;
-}
-
-.map {
-  height: 60vh;
-}
-
-.map img {
-  height: 80%;
-}
-
-.second-navigation {
-  margin: 50px;
-}
-
-.sub-menu a {
-  padding: 30px;
 }
 
 .main,

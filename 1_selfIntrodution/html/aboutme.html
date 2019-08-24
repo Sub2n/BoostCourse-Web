@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Subin Park</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <style>
+      .main {
+        height: auto;
+      }
+      .main section {
+        margin: 5vh;
+        text-align: left;
+      }
+      .main section h2 {
+        font-weight: 700;
+        font-style: italic;
+        margin-bottom: 2vh;
+      }
+      .portfolio a,
+      .contribution a {
+        background: none;
+        box-shadow: none;
+      }
+      .portfolio article {
+        margin: 1vh;
+      }
+      .fastflix a {
+        font-weight: 600;
+        color: #e50914;
+      }
+      .skill {
+        width: 100%;
+      }
+      .skill-menu {
+        display: inline-block;
+        text-align: left;
+      }
+      .skill-menu.left {
+        padding-left: 1vh;
+        margin-right: 40%;
+      }
+      .skill-menu.right {
+        padding-right: 1vh;
+        transform: translateX(-50%);
+      }
+      .skill::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+      .project article h3 {
+        font-weight: 600;
+        margin-top: 1.5vh;
+        margin-bottom: 0.7vh;
+        color: #535353;
+      }
+      .skillset ul li {
+        display: inline-block;
+        padding: 5px 20px;
+      }
+      .skillset ul li:nth-child(1) {
+        padding-left: 0;
+      }
+      .contribution li::before {
+        content: '';
+        display: inline-block;
+      }
+      .contribution li a {
+        float: left;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-navigation">
+        <ul class="main-menu">
+          <li><a href="http://localhost:8080/subin/index.html">홈</a></li>
+          <li>
+            <a href="http://localhost:8080/subin/aboutme.html">자기소개</a>
+          </li>
+          <li><a href="http://localhost:8080/subin/photo.html">내 사진</a></li>
+          <li><a href="http://localhost:8080/subin/today">몇시에요?</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about">
+        <h2>ABOUT ME</h2>
+        <p>홍익대학교 컴퓨터공학 전공</p>
+        <p>패스트캠퍼스 프론트엔드 스쿨 수료</p>
+      </section>
+      <section class="skill">
+        <h2>SKILLS</h2>
+        <ul class="skill-menu left">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript(ES6)</li>
+          <li>Angular</li>
+          <li>Git</li>
+        </ul>
+        <ul class="skill-menu right">
+          <li>알고리즘</li>
+          <li>자료구조</li>
+          <li>운영체제</li>
+          <li>소프트웨어 공학</li>
+          <li>네트워크</li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <article class="github">
+          <a href="https://github.com/Sub2n" class="fastflix"
+            >https://github.com/Sub2n</a
+          >
+          <p>
+            3월부터 프론트엔드를 공부하며 기록한 github 주소입니다.
+          </p>
+        </article>
+        <article class="fastflix">
+          <a href="http://www.fastflix.co.kr">www.fastflix.co.kr</a>
+          <p>
+            패스트캠퍼스 프론트엔드 스쿨을 수료하고 마지막으로 진행한
+            프로젝트입니다. 한 달간 프론트엔드, 백엔드, iOS가 협업하여
+            진행했습니다.
+          </p>
+        </article>
+      </section>
+      <section class="project">
+        <h2>RECENT PROJECT</h2>
+        <p>
+          최근 프로젝트는 위의 Fastflix입니다. <br />
+          세계적인 서비스 Netflix의 클론 프로젝트로, 저는 프론트엔드 팀의 팀장을
+          맡아 팀을 리딩했습니다.
+        </p>
+        <article class="skillset">
+          <h3>USED SKILL SET</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Angular 8/ TypeScript</li>
+            <li>RxJS</li>
+            <li>Git</li>
+          </ul>
+        </article>
+        <article class="contribution">
+          <h3>CONTRIBUTION</h3>
+          <ul>
+            <li>프로젝트 설계 및 Component 분리</li>
+            <li>Routing & Avtivate Gaurd</li>
+            <li>RESTful API를 사용하여 서버와 통신하는 모든 기능 구현</li>
+            <li>회원가입, 로그인, 프로필 기능 구현</li>
+            <li>애플리케이션 내에서 유저 상태 관리</li>
+            <li>
+              <a href="http://www.fastflix.co.kr/home">홈, </a>
+              <a href="http://www.fastflix.co.kr/movie">영화, </a>
+              <a href="http://www.fastflix.co.kr/mylist">내가 찜한 콘텐츠</a> 등
+              메인 페이지 구현
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="https://github.com/Sub2n">https://github.com/Sub2n</a>
+        <a href="https://sub2n.github.io/">https://sub2n.github.io/</a>
+      </nav>
+    </footer>
+  </body>
+</html>
