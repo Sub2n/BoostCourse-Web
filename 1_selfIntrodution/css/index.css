@@ -1,0 +1,86 @@
+.header {
+  height: 8vh;
+  position: relative;
+}
+
+.main {
+  height: 90vh;
+  position: relative;
+}
+
+.footer {}
+
+.main-navigation {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.main a,
+.header a {
+  background: rgb(116, 220, 177);
+  background: -moz-linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
+  background: -webkit-linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
+  background: linear-gradient(308deg, rgba(116, 220, 177, 1) 0%, rgba(255, 210, 114, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#74dcb1", endColorstr="#ffd272", GradientType=1);
+  font-weight: 700;
+  border-radius: 5px;
+  color: #424242;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.158);
+}
+
+.main-menu li,
+.sub-menu li {
+  display: inline-block;
+}
+
+.main-menu a {
+  padding: 5px 20px;
+  margin: 10px 5px;
+}
+
+.main .title {
+  margin: 5vh 0;
+}
+
+.map {
+  height: 60vh;
+}
+
+.map img {
+  height: 80%;
+}
+
+.second-navigation {
+  margin: 50px;
+}
+
+.sub-menu a {
+  padding: 30px;
+}
+
+.main,
+.footer {
+  text-align: center;
+}
+
+.footer {
+  height: 8vh;
+  position: relative;
+  margin-bottom: 2vh;
+}
+
+.footer-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.footer a {
+  display: block;
+  font-size: 14px;
+}
